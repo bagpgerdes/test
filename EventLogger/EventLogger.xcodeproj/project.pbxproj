@@ -1,0 +1,343 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A464F0216D3AB4400A08AFA /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A464F0116D3AB4400A08AFA /* CoreLocation.framework */; };
+		3A47B71F16BFDB3300C03CAC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A47B71E16BFDB3300C03CAC /* UIKit.framework */; };
+		3A47B72116BFDB3300C03CAC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A47B72016BFDB3300C03CAC /* Foundation.framework */; };
+		3A47B72316BFDB3300C03CAC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A47B72216BFDB3300C03CAC /* CoreGraphics.framework */; };
+		3A47B72916BFDB3300C03CAC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3A47B72716BFDB3300C03CAC /* InfoPlist.strings */; };
+		3A47B72B16BFDB3300C03CAC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A47B72A16BFDB3300C03CAC /* main.m */; };
+		3A47B72F16BFDB3400C03CAC /* OPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A47B72E16BFDB3400C03CAC /* OPAppDelegate.m */; };
+		3A47B73116BFDB3400C03CAC /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A47B73016BFDB3400C03CAC /* Default.png */; };
+		3A47B73316BFDB3400C03CAC /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A47B73216BFDB3400C03CAC /* Default@2x.png */; };
+		3A47B73516BFDB3400C03CAC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A47B73416BFDB3400C03CAC /* Default-568h@2x.png */; };
+		3A47B73816BFDB3400C03CAC /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A47B73616BFDB3400C03CAC /* MainStoryboard_iPhone.storyboard */; };
+		3A47B73B16BFDB3400C03CAC /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A47B73916BFDB3400C03CAC /* MainStoryboard_iPad.storyboard */; };
+		3A47B73E16BFDB3400C03CAC /* OPMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A47B73D16BFDB3400C03CAC /* OPMasterViewController.m */; };
+		3A47B74116BFDB3400C03CAC /* OPDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A47B74016BFDB3400C03CAC /* OPDetailViewController.m */; };
+		3A66501816D23A2F00C47862 /* OPLoggerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A66501716D23A2F00C47862 /* OPLoggerCell.m */; };
+		3AE8553916C004D80086C644 /* OPLoggersDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AE8553816C004D80086C644 /* OPLoggersDocument.m */; };
+		3AE8553D16C006160086C644 /* OPLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AE8553C16C006160086C644 /* OPLogger.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3A464F0116D3AB4400A08AFA /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		3A47B71A16BFDB3300C03CAC /* EventLogger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EventLogger.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A47B71E16BFDB3300C03CAC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3A47B72016BFDB3300C03CAC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3A47B72216BFDB3300C03CAC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3A47B72616BFDB3300C03CAC /* EventLogger-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EventLogger-Info.plist"; sourceTree = "<group>"; };
+		3A47B72816BFDB3300C03CAC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3A47B72A16BFDB3300C03CAC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3A47B72C16BFDB3300C03CAC /* EventLogger-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EventLogger-Prefix.pch"; sourceTree = "<group>"; };
+		3A47B72D16BFDB3400C03CAC /* OPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OPAppDelegate.h; sourceTree = "<group>"; };
+		3A47B72E16BFDB3400C03CAC /* OPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OPAppDelegate.m; sourceTree = "<group>"; };
+		3A47B73016BFDB3400C03CAC /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		3A47B73216BFDB3400C03CAC /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		3A47B73416BFDB3400C03CAC /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		3A47B73716BFDB3400C03CAC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		3A47B73A16BFDB3400C03CAC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		3A47B73C16BFDB3400C03CAC /* OPMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OPMasterViewController.h; sourceTree = "<group>"; };
+		3A47B73D16BFDB3400C03CAC /* OPMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OPMasterViewController.m; sourceTree = "<group>"; };
+		3A47B73F16BFDB3400C03CAC /* OPDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OPDetailViewController.h; sourceTree = "<group>"; };
+		3A47B74016BFDB3400C03CAC /* OPDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OPDetailViewController.m; sourceTree = "<group>"; };
+		3A66501616D23A2F00C47862 /* OPLoggerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OPLoggerCell.h; sourceTree = "<group>"; };
+		3A66501716D23A2F00C47862 /* OPLoggerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OPLoggerCell.m; sourceTree = "<group>"; };
+		3AE8553716C004D80086C644 /* OPLoggersDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OPLoggersDocument.h; sourceTree = "<group>"; };
+		3AE8553816C004D80086C644 /* OPLoggersDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OPLoggersDocument.m; sourceTree = "<group>"; };
+		3AE8553B16C006160086C644 /* OPLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OPLogger.h; sourceTree = "<group>"; };
+		3AE8553C16C006160086C644 /* OPLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OPLogger.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3A47B71716BFDB3300C03CAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A464F0216D3AB4400A08AFA /* CoreLocation.framework in Frameworks */,
+				3A47B71F16BFDB3300C03CAC /* UIKit.framework in Frameworks */,
+				3A47B72116BFDB3300C03CAC /* Foundation.framework in Frameworks */,
+				3A47B72316BFDB3300C03CAC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A47B70F16BFDB3300C03CAC = {
+			isa = PBXGroup;
+			children = (
+				3A47B72416BFDB3300C03CAC /* EventLogger */,
+				3A47B71D16BFDB3300C03CAC /* Frameworks */,
+				3A47B71B16BFDB3300C03CAC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3A47B71B16BFDB3300C03CAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3A47B71A16BFDB3300C03CAC /* EventLogger.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3A47B71D16BFDB3300C03CAC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3A464F0116D3AB4400A08AFA /* CoreLocation.framework */,
+				3A47B71E16BFDB3300C03CAC /* UIKit.framework */,
+				3A47B72016BFDB3300C03CAC /* Foundation.framework */,
+				3A47B72216BFDB3300C03CAC /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3A47B72416BFDB3300C03CAC /* EventLogger */ = {
+			isa = PBXGroup;
+			children = (
+				3AE8553B16C006160086C644 /* OPLogger.h */,
+				3AE8553C16C006160086C644 /* OPLogger.m */,
+				3AE8553716C004D80086C644 /* OPLoggersDocument.h */,
+				3AE8553816C004D80086C644 /* OPLoggersDocument.m */,
+				3A47B72D16BFDB3400C03CAC /* OPAppDelegate.h */,
+				3A47B72E16BFDB3400C03CAC /* OPAppDelegate.m */,
+				3A47B73616BFDB3400C03CAC /* MainStoryboard_iPhone.storyboard */,
+				3A47B73916BFDB3400C03CAC /* MainStoryboard_iPad.storyboard */,
+				3A47B73C16BFDB3400C03CAC /* OPMasterViewController.h */,
+				3A47B73D16BFDB3400C03CAC /* OPMasterViewController.m */,
+				3A47B73F16BFDB3400C03CAC /* OPDetailViewController.h */,
+				3A47B74016BFDB3400C03CAC /* OPDetailViewController.m */,
+				3A47B72516BFDB3300C03CAC /* Supporting Files */,
+				3A66501616D23A2F00C47862 /* OPLoggerCell.h */,
+				3A66501716D23A2F00C47862 /* OPLoggerCell.m */,
+			);
+			path = EventLogger;
+			sourceTree = "<group>";
+		};
+		3A47B72516BFDB3300C03CAC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3A47B72616BFDB3300C03CAC /* EventLogger-Info.plist */,
+				3A47B72716BFDB3300C03CAC /* InfoPlist.strings */,
+				3A47B72A16BFDB3300C03CAC /* main.m */,
+				3A47B72C16BFDB3300C03CAC /* EventLogger-Prefix.pch */,
+				3A47B73016BFDB3400C03CAC /* Default.png */,
+				3A47B73216BFDB3400C03CAC /* Default@2x.png */,
+				3A47B73416BFDB3400C03CAC /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3A47B71916BFDB3300C03CAC /* EventLogger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A47B74416BFDB3400C03CAC /* Build configuration list for PBXNativeTarget "EventLogger" */;
+			buildPhases = (
+				3A47B71616BFDB3300C03CAC /* Sources */,
+				3A47B71716BFDB3300C03CAC /* Frameworks */,
+				3A47B71816BFDB3300C03CAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EventLogger;
+			productName = EventLogger;
+			productReference = 3A47B71A16BFDB3300C03CAC /* EventLogger.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3A47B71116BFDB3300C03CAC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = OP;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Brockhaus AG";
+			};
+			buildConfigurationList = 3A47B71416BFDB3300C03CAC /* Build configuration list for PBXProject "EventLogger" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3A47B70F16BFDB3300C03CAC;
+			productRefGroup = 3A47B71B16BFDB3300C03CAC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3A47B71916BFDB3300C03CAC /* EventLogger */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3A47B71816BFDB3300C03CAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A47B72916BFDB3300C03CAC /* InfoPlist.strings in Resources */,
+				3A47B73116BFDB3400C03CAC /* Default.png in Resources */,
+				3A47B73316BFDB3400C03CAC /* Default@2x.png in Resources */,
+				3A47B73516BFDB3400C03CAC /* Default-568h@2x.png in Resources */,
+				3A47B73816BFDB3400C03CAC /* MainStoryboard_iPhone.storyboard in Resources */,
+				3A47B73B16BFDB3400C03CAC /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A47B71616BFDB3300C03CAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A47B72B16BFDB3300C03CAC /* main.m in Sources */,
+				3A47B72F16BFDB3400C03CAC /* OPAppDelegate.m in Sources */,
+				3A47B73E16BFDB3400C03CAC /* OPMasterViewController.m in Sources */,
+				3A47B74116BFDB3400C03CAC /* OPDetailViewController.m in Sources */,
+				3AE8553916C004D80086C644 /* OPLoggersDocument.m in Sources */,
+				3AE8553D16C006160086C644 /* OPLogger.m in Sources */,
+				3A66501816D23A2F00C47862 /* OPLoggerCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3A47B72716BFDB3300C03CAC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A47B72816BFDB3300C03CAC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3A47B73616BFDB3400C03CAC /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A47B73716BFDB3400C03CAC /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		3A47B73916BFDB3400C03CAC /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A47B73A16BFDB3400C03CAC /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3A47B74216BFDB3400C03CAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3A47B74316BFDB3400C03CAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3A47B74516BFDB3400C03CAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EventLogger/EventLogger-Prefix.pch";
+				INFOPLIST_FILE = "EventLogger/EventLogger-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3A47B74616BFDB3400C03CAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EventLogger/EventLogger-Prefix.pch";
+				INFOPLIST_FILE = "EventLogger/EventLogger-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3A47B71416BFDB3300C03CAC /* Build configuration list for PBXProject "EventLogger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A47B74216BFDB3400C03CAC /* Debug */,
+				3A47B74316BFDB3400C03CAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A47B74416BFDB3400C03CAC /* Build configuration list for PBXNativeTarget "EventLogger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A47B74516BFDB3400C03CAC /* Debug */,
+				3A47B74616BFDB3400C03CAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3A47B71116BFDB3300C03CAC /* Project object */;
+}
